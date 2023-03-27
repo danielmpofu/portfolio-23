@@ -1,1 +1,186 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.vertical-nav {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  background-color: black;
+  width: 14%;
+
+  .nav-inner {
+    padding-left: 1.2em;
+  }
+
+  .logo {
+    h1 {
+      margin: 0;
+    }
+
+    font-size: 4.5vw;
+    color: transparent;
+    font-family: 'Work Sans',
+    sans-serif;
+    -webkit-text-stroke: 1px red;
+
+    span {
+      -webkit-text-stroke: 1px white;
+    }
+
+  }
+
+  ul {
+    padding: 0;
+    color: white;
+    list-style-type: none;
+    text-transform: uppercase;
+
+    li {
+
+      p {
+        color: white;
+        font-size: 1.3vw;
+
+        span {
+
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.scroll-down-text {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.2vw;
+  color: transparent;
+  margin-bottom: 2em;
+  letter-spacing: .1em;
+  -webkit-text-stroke: .51px red;
+
+}
+
+.top-email {
+  h3 {
+    margin: 0;
+  }
+
+  padding: .53vw;
+  color: red;
+  position: fixed;
+  right: 0;
+}
+
+.social-icons-container,
+.line-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.social-icons {
+  margin-right: 2em;
+  justify-content: center;
+
+  li {
+    cursor: pointer;
+    padding-top: 1.0em;
+
+    img {
+      width: 3vw;
+    }
+
+    .linkedin {
+      width: 2.5vw !important;
+      margin-left: 0.4em;
+    }
+
+  }
+}
+
+.line {
+  height: 25vh;
+  background-color: red;
+  width: 3px;
+}
+
+.parent {
+  display: flex;
+  //grid-template-columns: 2;
+}
+
+.app-body {
+  right: 0;
+  //width: 81.9vw;
+  padding-left: 14vw;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-type: y mandatory;
+
+}
+
+p {
+  margin: 0;
+}
+
+.intro-container {
+  height: 100vh;
+  padding: 5em;
+  scroll-snap-align: start !important;
+}
+
+.hi-text {
+  margin-left: .2em;
+  color: red;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.my-name {
+  font-weight: 800;
+  color: transparent;
+  font-size: 5.5vw;
+  color: transparent;
+  font-family: sans-serif;
+  -webkit-text-stroke: 1px red;
+}
+
+.what-i-do {
+  font-weight: 800;
+  color: red;
+  letter-spacing: 0.12em;
+  font-size: 5.5vw;
+  // color: transparent;
+  // font-family: sans-serif;
+}
+
+.bio-text {
+  padding-top: 1.2em;
+  margin-left: .2em;
+  width: 55vw;
+}
+
+.current-bio {
+  letter-spacing: 0.03em;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.activity-section{
+  scroll-snap-align: start;
+  height: 100vh;
+}

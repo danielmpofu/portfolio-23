@@ -1,0 +1,27 @@
+.section-title-body {
+border-bottom: 1px solid red;
+  height: 10vh;
+  width: 100%;
+justify-items: start;
+  display: flex;
+  flex-direction: row;
+
+
+  .section-title{
+    text-transform: capitalize;
+    font-size: 3em;padding: 0.4em;
+  }
+  .section-number{
+
+    padding-left: 2em;
+    padding-top: 1.6em;
+    font-size: 1.5em;
+    color: red;
+    font-weight: 500;
+  }
+  //.hr-line{
+  //  height: 2px;
+  //  background-color: grey;
+  //  width: 100%;
+  //}
+}
